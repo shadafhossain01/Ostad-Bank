@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.login-sec{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.login-form{
+border: 1px solid black;
+    padding: 40px 30px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.login-form h4{
+    margin-bottom: 20px;
+}
+
+.bank-sec{
+    width: 70%;
+margin: auto;
+display: none;
+padding-top: 180px;
+}
+
+
+.deposit-card{
+    background-color: rgb(41 148 41);
+    padding: 25px 26px;
+    border-radius: 12px;
+    margin-right: 55px;
+    color: white;
+    font-weight: 900;
+}
+
+.withdraw-card{
+    background-color: rgb(227 9 9 / 81%);
+    padding: 25px 26px;
+    border-radius: 12px;
+    margin-right: 55px;
+    color: white;
+    font-weight: 900;
+}
+
+.balance-card{
+    background-color:  #ffc30f;
+    padding: 25px 26px;
+    border-radius: 12px;
+    margin-right: 55px;
+    color: white;
+    font-weight: 900;
+}
+
+.with-box, .dep-box{
+    padding-right: 150px;
+    margin-top: 25px;
+}
+
+.with-box h5, .dep-box h5{
+margin-bottom: 20px;
+
+}
